@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AyeGame/AyeGame.iml" filepath="$PROJECT_DIR$/AyeGame/AyeGame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic_code.iml" filepath="$PROJECT_DIR$/basic_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day0718_code/day0718_code.iml" filepath="$PROJECT_DIR$/day0718_code/day0718_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day0719_code/day0719_code.iml" filepath="$PROJECT_DIR$/day0719_code/day0719_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day0720_code/day0720_code.iml" filepath="$PROJECT_DIR$/day0720_code/day0720_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day0721_code/day0721_code.iml" filepath="$PROJECT_DIR$/day0721_code/day0721_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day0722_code/day0722_code.iml" filepath="$PROJECT_DIR$/day0722_code/day0722_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day0723_code/day0723_code.iml" filepath="$PROJECT_DIR$/day0723_code/day0723_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day0802_code/day0802_code.iml" filepath="$PROJECT_DIR$/day0802_code/day0802_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day0803_code/day0803_code.iml" filepath="$PROJECT_DIR$/day0803_code/day0803_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day0810_code/day0810_code.iml" filepath="$PROJECT_DIR$/day0810_code/day0810_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day0817_code/day0817_code.iml" filepath="$PROJECT_DIR$/day0817_code/day0817_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day0818_code/day0818_code.iml" filepath="$PROJECT_DIR$/day0818_code/day0818_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day0819_code/day0819_code.iml" filepath="$PROJECT_DIR$/day0819_code/day0819_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day0820_code/day0820_code.iml" filepath="$PROJECT_DIR$/day0820_code/day0820_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day0903_code/day0903_code.iml" filepath="$PROJECT_DIR$/day0903_code/day0903_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day0904_code/day0904_code.iml" filepath="$PROJECT_DIR$/day0904_code/day0904_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day0906_code/day0906_code.iml" filepath="$PROJECT_DIR$/day0906_code/day0906_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day0908_code/day0908_code.iml" filepath="$PROJECT_DIR$/day0908_code/day0908_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day0909_code/day0909_code.iml" filepath="$PROJECT_DIR$/day0909_code/day0909_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day0910_code/day0910_code.iml" filepath="$PROJECT_DIR$/day0910_code/day0910_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day0911_code/day0911_code.iml" filepath="$PROJECT_DIR$/day0911_code/day0911_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day0912_code/day0912_code.iml" filepath="$PROJECT_DIR$/day0912_code/day0912_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day0913_code/day0913_code.iml" filepath="$PROJECT_DIR$/day0913_code/day0913_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day0914_code/day0914_code.iml" filepath="$PROJECT_DIR$/day0914_code/day0914_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day0916_code/day0916_code.iml" filepath="$PROJECT_DIR$/day0916_code/day0916_code.iml" />
+    </modules>
+  </component>
+</project>
