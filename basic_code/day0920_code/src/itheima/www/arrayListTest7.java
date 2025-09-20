@@ -38,7 +38,7 @@ public static int getIndex(ArrayList<user> list,int id){
         }
     }
     return -1;
-    
+
 
     }
 }
