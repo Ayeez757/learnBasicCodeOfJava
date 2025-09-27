@@ -15,7 +15,7 @@ public class classInClass {//外部类
         /*
         *
         * 成员内部类：
-        *   写在成员位置的，数据外部类的成员
+        *   写在成员位置，属于外部类的成员
         *   成员内部类可以被一些修饰符所修饰，比如：private,默认,protected,public,static等
         *   protected可以被本包的其他类使用，也可以被子类使用
         *   在成员内部类里面，JDK16之前不能定义静态变量，JDK16开始才可以定义静态变量
