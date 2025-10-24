@@ -37,14 +37,34 @@ public class CalendarDemo1 {
         c.setTime(d);
         System.out.println(c);
 
+        //3.修改日历上某个字段的信息
+        c.set(Calendar.YEAR,2025);
+        c.set(Calendar.MONTH,9);
+        c.set(Calendar.DAY_OF_MONTH,23);
+
+        c.add(Calendar.DAY_OF_MONTH,1);
         //获取calendar里面的数据
         /*
         0:纪元
         1：年
         2：月
         3：一年中的第几周
-
+        4： 一个月中的第几周
+        5：一个月中的第几天（日期）
+        java 在Calendar类中，把索引都定义成了常量
          */
+        int year = c.get(Calendar.YEAR);
+        int month = c.get(Calendar.MONTH)+1;
+        int day = c.get(Calendar.DAY_OF_MONTH);
+        int week = c.get(Calendar.DAY_OF_WEEK);
+        System.out.println(year + "年" + month+"月"+day+"日"+" "+ getWeek(week));
 
+
+    }
+
+    //查表法：让索引和容器一一对应
+    public static String getWeek(int week){
+        String []arr = {"","星期日","星期一","星期二","星期三","星期四","星期五","星期六"};
+        return arr[week];
     }
 }
