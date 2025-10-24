@@ -9,6 +9,14 @@ import java.util.Random;
 //游戏界面的对象，继承JFrame，实现KeyListener键盘监听接口
 public class GameJFrame extends JFrame implements KeyListener {
 
+    //判断游戏胜利的数组
+    int [][] win={
+            {1,2,3,4},
+            {5,6,7,8},
+            {9,10,11,12},
+            {13,14,15,16}
+    };
+
 
     //创建二维数组
     int [][] imgsArray2=new int[4][4];
@@ -23,8 +31,6 @@ public class GameJFrame extends JFrame implements KeyListener {
 
         //打乱图片
         initArr();
-
-
 
         //添加图片
         initImage();
@@ -100,9 +106,14 @@ public class GameJFrame extends JFrame implements KeyListener {
     }
 
     private void initImage(){
-
         //删除所有图片
         this.getContentPane().removeAll();
+
+        //判断胜利
+        if(victory()){
+            System.out.println("胜利！");
+        }
+
 //        //图片名字的计数器
 //        int num = 1;
         //改为根据二维数组创建
@@ -193,11 +204,26 @@ public class GameJFrame extends JFrame implements KeyListener {
 
     @Override
     public void keyPressed(KeyEvent e) {
-
+        int code =e.getKeyCode();
+        if(code == 65){
+            //把界面中所有的图片全部删除
+            this.getContentPane().removeAll();
+            //加载第一张完整图片
+            JLabel all = new JLabel(new ImageIcon("day0927_puzzleGame\\imgs\\fufu\\fnnAll1.jpg"));
+            all.setBounds(83,134,420,420);
+            this.getContentPane().add(all);
+            //刷新界面
+            this.getContentPane().repaint();
+        }
     }
 
     @Override
     public void keyReleased(KeyEvent e) {
+
+        if(victory()){
+            return;
+        }
+
         //这个是松开触发的方法，在这里加入上下左右
         //接收一下键盘的数据
         int code = e.getKeyCode();
@@ -259,8 +285,32 @@ public class GameJFrame extends JFrame implements KeyListener {
             imgsArray2[y-1][x]=temp;
             initImage();
             y--;
+        }        //实测如果移动图片会很反人类，移动空白会舒服很多
+        else if(code==65){
+            initImage();
         }
-        //实测如果移动图片会很反人类，移动空白会舒服很多
+        else if(code==87){
+            imgsArray2 = new int[][]{
+                    {1,2,3,4},
+                    {5,6,7,8},
+                    {9,10,11,12},
+                    {13,14,15,16}
+            };
+            initImage();
+        }
 
+
+    }
+    //判断data数组中的数据是否跟win数组中相同
+    //如果全都相同，返回true，否则返回false
+    public boolean victory(){
+        for(int i=0;i<imgsArray2.length;i++){
+            for(int j=0;j<imgsArray2[i].length;j++){
+                if(imgsArray2[i][j]!=win[i][j]){
+                    return false;
+                }
+            }
+        }
+        return true;
     }
 }

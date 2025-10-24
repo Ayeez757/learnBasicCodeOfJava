@@ -1,0 +1,1 @@
+[笔记](https://blog.ayeez.cn/2025/10/15/BigInteger%E5%92%8CBigDecima/)
