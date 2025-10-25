@@ -28,5 +28,8 @@ public class DateDemo1 {
         //4.getTime获取当前时间的毫秒值
         long time = d2.getTime();
         System.out.println(time);
+
+        String str = "abd";
+        System.out.println(str.charAt(1));
     }
 }
