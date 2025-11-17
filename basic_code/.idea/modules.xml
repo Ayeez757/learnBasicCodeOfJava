@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AyeGame/AyeGame.iml" filepath="$PROJECT_DIR$/AyeGame/AyeGame.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic_code.iml" filepath="$PROJECT_DIR$/basic_code.iml" />
       <module fileurl="file://$PROJECT_DIR$/day0718_code/day0718_code.iml" filepath="$PROJECT_DIR$/day0718_code/day0718_code.iml" />
       <module fileurl="file://$PROJECT_DIR$/day0719_code/day0719_code.iml" filepath="$PROJECT_DIR$/day0719_code/day0719_code.iml" />
@@ -57,6 +56,10 @@
       <module fileurl="file://$PROJECT_DIR$/day1103_code/day1103_code.iml" filepath="$PROJECT_DIR$/day1103_code/day1103_code.iml" />
       <module fileurl="file://$PROJECT_DIR$/day1110_code/day1110_code.iml" filepath="$PROJECT_DIR$/day1110_code/day1110_code.iml" />
       <module fileurl="file://$PROJECT_DIR$/day1111_code/day1111_code.iml" filepath="$PROJECT_DIR$/day1111_code/day1111_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day1112_code/day1112_code.iml" filepath="$PROJECT_DIR$/day1112_code/day1112_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day1113_code/day1113_code.iml" filepath="$PROJECT_DIR$/day1113_code/day1113_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day1114_code/day1114_code.iml" filepath="$PROJECT_DIR$/day1114_code/day1114_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day1117_code/day1117_code.iml" filepath="$PROJECT_DIR$/day1117_code/day1117_code.iml" />
     </modules>
   </component>
 </project>
