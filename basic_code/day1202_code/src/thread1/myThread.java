@@ -1,4 +1,4 @@
-package thread;
+package thread1;
 
 public class myThread extends Thread{
 
