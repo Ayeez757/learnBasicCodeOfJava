@@ -16,7 +16,8 @@ public class client {
         //2.可以从链接通道中获取输出流
         OutputStream os = socket.getOutputStream();
         //写出数据
-        os.write("hello server".getBytes());
+        os.write(("hello server\n" +
+                "你好你好").getBytes());
 
 
         //3.释放资源

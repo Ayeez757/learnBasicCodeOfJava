@@ -2,6 +2,7 @@ package tcpdemo1;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.net.ServerSocket;
 import java.net.Socket;
 
@@ -17,8 +18,9 @@ public class Server {
 
         //3.从链接通道中获取输入流读取数据
         InputStream is = socket.getInputStream();
+        InputStreamReader isr = new InputStreamReader(is);//转换
         int b;
-        while((b = is.read()) != -1) {
+        while((b = isr.read()) != -1) {
             System.out.print((char)b);
 
         }
